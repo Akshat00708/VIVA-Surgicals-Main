@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% load static %}
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+        <title>VIVA Bootstrap Template</title>
+        <meta content="" name="description" />
+        <meta content="" name="keywords" />
+
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="{% static 'path/to/font-awesome/css/font-awesome.min.css' %}"
+        />
+
+        <!-- Favicons -->
+        <link href="{% static 'img/favicon.png' %}" rel="icon" />
+        <link
+            href="{% static 'img/apple-touch-icon.png' %}"
+            rel="apple-touch-icon"
+        />
+
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+            rel="stylesheet"
+        />
+
+        <!-- Vendor CSS Files -->
+        <link
+            rel="stylesheet"
+            href="{% static 'vendor/fontawesome-free/css/all.min.css' %}"
+        />
+        <link
+            rel="stylesheet"
+            href="{% static 'vendor/animate.css/animate.min.css' %}"
+        />
+        <link
+            rel="stylesheet"
+            href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}"
+        />
+        <link
+            rel="stylesheet"
+            href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}"
+        />
+        <link
+            rel="stylesheet"
+            href="{% static 'vendor/boxicons/css/boxicons.min.css' %}"
+        />
+        <link
+            rel="stylesheet"
+            href="{% static 'vendor/glightbox/css/glightbox.min.css' %}"
+        />
+        <link
+            rel="stylesheet"
+            href="{% static 'vendor/remixicon/remixicon.css' %}"
+        />
+        <link
+            rel="stylesheet"
+            href="{% static 'vendor/swiper/swiper-bundle.min.css' %}"
+        />
+
+        <!-- Template Main CSS File -->
+        <link rel="stylesheet" href="{% static 'main.css' %}" />
+
+        <!-- =======================================================
+    * Template Name: VIVA - v4.7.1
+    * Template URL: https://bootstrapmade.com/VIVA-free-medical-bootstrap-theme/
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
+    </head>
+
+    <body>
+        <!-- ======= Top Bar ======= -->
+        <div id="topbar" class="d-flex align-items-center fixed-top">
+            <div class="container d-flex justify-content-between">
+                <div class="contact-info d-flex align-items-center">
+                    <i class="bi bi-envelope"></i>
+                    <a href="mailto:care@vivamedicare.co.in"
+                        >care@vivamedicare.co.in</a
+                    >
+                    <i class="bi bi-phone"></i> +91 8750589184
+                </div>
+                <div class="d-none d-lg-flex social-links align-items-center">
+                    <a href="#" class="twitter"
+                        ><i class="bi bi-twitter"></i
+                    ></a>
+                    <a href="#" class="facebook"
+                        ><i class="bi bi-facebook"></i
+                    ></a>
+                    <a href="#" class="instagram"
+                        ><i class="bi bi-instagram"></i
+                    ></a>
+                    <a href="#" class="linkedin"
+                        ><i class="bi bi-linkedin"></i
+                    ></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ======= Header ======= -->
+        <header id="header" class="fixed-top">
+            <div class="container d-flex align-items-center">
+                <h1 class="logo me-auto"><a href="{% url 'main' %}">VIVA</a></h1>
+                <nav id="navbar" class="navbar order-last order-lg-0">
+                    <ul>
+                        <li>
+                            <a class="nav-link scrollto active" href="#hero"
+                                >Home</a
+                            >
+                        </li>
+                        <li>
+                            <a class="nav-link scrollto" href="#about">About</a>
+                        </li>
+                        <li>
+                            <a class="nav-link scrollto" href="#doctors"
+                                >Who We Are</a
+                            >
+                        </li>
+                        <li class="dropdown">
+                            <a href="{% url 'products' %}">Products</a>
+                        </li>
+                        <li>
+                            <a class="nav-link scrollto" href="#contact"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
+                    <i class="bi bi-list mobile-nav-toggle"></i>
+                </nav>
+                <!-- .navbar -->
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- ======= Hero Section ======= -->
+        <section id="hero" class="d-flex align-items-center">
+            <div class="container">
+                <h1>Welcome to VIVA Surgical Solutions</h1>
+                <a href="#about" class="btn-get-started scrollto"
+                    >Get Started</a
+                >
+            </div>
+        </section>
+        <!-- End Hero -->
+
+        <main id="main">
+            <!-- ======= Why Us Section ======= -->
+            <section id="why-us" class="why-us">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 d-flex align-items-stretch">
+                            <div class="content box-shadow">
+                                <h3>Why Choose VIVA?</h3>
+                                <p>
+                                    We offer our clients with high-quality
+                                    products at the best possible prices. As a
+                                    company producing healthcare products we
+                                    meet strict industry standards and follow
+                                    the highest principles of business ethics
+                                    and voluntary self-regulation.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 d-flex align-items-stretch">
+                            <div
+                                class="icon-boxes d-flex flex-column justify-content-center"
+                            >
+                                <div class="row">
+                                    <div
+                                        class="col-xl-4 d-flex align-items-stretch"
+                                    >
+                                        <div class="icon-box mt-4 mt-xl-0">
+                                            <i class="bx bx-rocket"></i>
+                                            <h4>Our Mission</h4>
+                                            <p>
+                                                Our vision is to be the
+                                                prominent name in our
+                                                communities for being innovative
+                                                and providing unparalleled
+                                                services and wellbeing programs.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="col-xl-4 d-flex align-items-stretch"
+                                    >
+                                        <div class="icon-box mt-4 mt-xl-0">
+                                            <i
+                                                class="fa fa-eye"
+                                                aria-hidden="true"
+                                            ></i>
+                                            <h4>Our Vision</h4>
+                                            <p>
+                                                We work on a focused approach
+                                                towards providing our business
+                                                partners with quick & safe
+                                                solutions for complete health
+                                                care related problems. The
+                                                offered product range is
+                                                procured from leading companies
+                                                in the pharmaceutical sector.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="col-xl-4 d-flex align-items-stretch"
+                                    >
+                                        <div class="icon-box mt-4 mt-xl-0">
+                                            <i
+                                                class="fa fa-check"
+                                                aria-hidden="true"
+                                            ></i>
+                                            <h4>High Quality</h4>
+                                            <p>
+                                                We sell high quality and
+                                                affordable goods
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End .content-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Why Us Section -->
+
+            <!-- ======= About Section ======= -->
+            <section id="about" class="about">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div
+                            class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative"
+                        >
+                            <a
+                                href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
+                                class="glightbox play-btn mb-4"
+                            ></a>
+                        </div>
+
+                        <div
+                            class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5"
+                        >
+                            <h3>You can trust on VIVA</h3>
+                            <p>
+                                VIVA Surgicals is a healthcare technology and
+                                solutions provider of high-quality surgical
+                                instrumentation, a full-line electrosurgery
+                                portfolio and minimally invasive surgical
+                                devices
+                            </p>
+
+                            <div class="icon-box">
+                                <div class="icon">
+                                    <i
+                                        class="fa fa-mobile"
+                                        aria-hidden="true"
+                                    ></i>
+                                </div>
+                                <h4 class="title"><a href="">Wellbeing</a></h4>
+                                <p class="description">
+                                    Wellbeing of our patients, team members and
+                                    community is at the forefront of every
+                                    decision we make.
+                                </p>
+                            </div>
+
+                            <div class="icon-box">
+                                <div class="icon">
+                                    <i class="bx bx-gift"></i>
+                                </div>
+                                <h4 class="title"><a href="">Integrity</a></h4>
+                                <p class="description">
+                                    We service the needs of our community while
+                                    ensuring our patients’ rights to privacy,
+                                    confidentiality and information.
+                                </p>
+                            </div>
+
+                            <div class="icon-box">
+                                <div class="icon">
+                                    <i class="bx bx-atom"></i>
+                                </div>
+                                <h4 class="title">
+                                    <a href="">Collaboration</a>
+                                </h4>
+                                <p class="description">
+                                    We collaborate with our team members, health
+                                    care providers, health authorities and other
+                                    stakeholders to ensure that we offer the
+                                    best patient care solutions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End About Section -->
+
+            <!-- ======= Who We Are Section ======= -->
+            <section id="doctors" class="doctors">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Who We Are</h2>
+                        <p>
+                            Incepted in the year 2022, VIVA Surgical Solutions,
+                            is wholesalers, suppliers and distributors of this
+                            highly commendable and diverse range of Allopathic,
+                            Neutraceuticals, OTC, Consumables, Cosmetics,
+                            Surgical items and Medical Devices.The Products that
+                            are widely praised and preferred in the market.
+                            Processing of this range is done by highly skilled
+                            and experienced vendors, who engage in the
+                            utilization of quality ingredients in the best
+                            possible combination, as per the set FDA norms and
+                            guidelines. In addition to this, the offered range
+                            is known to be marked at the most reasonable rate
+                            possible.
+                            <br />
+                        </p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="member d-flex align-items-start">
+                                <div class="pic">
+                                    <img
+                                        class="img-fluid"
+                                        src="{% static 'img/doctors/doctors-1.jpg' %}"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="member-info">
+                                    <h4>Manoj Kumar</h4>
+                                    <span class="float-right">Founder </span>
+                                    <div class="social">
+                                        <a href=""
+                                            ><i class="ri-twitter-fill"></i
+                                        ></a>
+                                        <a href=""
+                                            ><i class="ri-facebook-fill"></i
+                                        ></a>
+                                        <a href=""
+                                            ><i class="ri-instagram-fill"></i
+                                        ></a>
+                                        <a href="">
+                                            <i class="ri-linkedin-box-fill"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 mt-4 mt-lg-0">
+                            <div class="member d-flex align-items-start">
+                                <div class="pic">
+                                    <img
+                                        class="img-fluid"
+                                        src="{% static 'img/doctors/doctors-2.jpg' %}"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="member-info">
+                                    <h4>Neel Gagan</h4>
+                                    <span>MD of the company</span>
+                                    <div class="social">
+                                        <a href=""
+                                            ><i class="ri-twitter-fill"></i
+                                        ></a>
+                                        <a href=""
+                                            ><i class="ri-facebook-fill"></i
+                                        ></a>
+                                        <a href=""
+                                            ><i class="ri-instagram-fill"></i
+                                        ></a>
+                                        <a href="">
+                                            <i class="ri-linkedin-box-fill"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 mt-4">
+                            <div class="member d-flex align-items-start">
+                                <div class="pic">
+                                    <img
+                                        class="img-fluid"
+                                        src="{% static 'img/doctors/doctors-3.jpg' %}"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="member-info">
+                                    <h4>Sanjay Sharma</h4>
+                                    <span>Technical Advisor</span>
+                                    <div class="social">
+                                        <a href=""
+                                            ><i class="ri-twitter-fill"></i
+                                        ></a>
+                                        <a href=""
+                                            ><i class="ri-facebook-fill"></i
+                                        ></a>
+                                        <a href=""
+                                            ><i class="ri-instagram-fill"></i
+                                        ></a>
+                                        <a href="">
+                                            <i class="ri-linkedin-box-fill"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Who We Are Section -->
+
+            <!-- ======= Testimonials Section ======= -->
+            <section id="testimonials" class="testimonials">
+                <div class="container">
+                    <div
+                        class="testimonials-slider swiper"
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                    >
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testimonial-wrap">
+                                    <div class="testimonial-item">
+                                        <img
+                                            class="testimonial-img"
+                                            src="{% static 'img/testimonials/testimonials-1.jpg' %}"
+                                            alt=""
+                                        />
+                                        <h3>Akshat Srivastava</h3>
+                                        <h4>Programmer</h4>
+                                        <p>
+                                            <i
+                                                class="bx bxs-quote-alt-left quote-icon-left"
+                                            ></i>
+                                            Very Nice! and a lovely information
+                                            about the Company
+                                            <i
+                                                class="bx bxs-quote-alt-right quote-icon-right"
+                                            ></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-wrap">
+                                    <div class="testimonial-item">
+                                        <img
+                                            src="{% static 'img/testimonials/testimonials-2.jpg' %}"
+                                            class="testimonial-img"
+                                            alt=""
+                                        />
+                                        <h3>Imran Baig</h3>
+                                        <h4>Professional</h4>
+                                        <p>
+                                            <i
+                                                class="bx bxs-quote-alt-left quote-icon-left"
+                                            ></i>
+                                            All the Best for your future
+                                            endevaours!
+                                            <i
+                                                class="bx bxs-quote-alt-right quote-icon-right"
+                                            ></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-wrap">
+                                    <div class="testimonial-item">
+                                        <img
+                                            src="{% static 'img/testimonials/testimonials-3.jpg' %}"
+                                            class="testimonial-img"
+                                            alt=""
+                                        />
+                                        <h3>Gautam</h3>
+                                        <h4>Medical Professional</h4>
+                                        <p>
+                                            <i
+                                                class="bx bxs-quote-alt-left quote-icon-left"
+                                            ></i>
+                                            Good Website! Wish you all the luck
+                                            <i
+                                                class="bx bxs-quote-alt-right quote-icon-right"
+                                            ></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-wrap">
+                                    <div class="testimonial-item">
+                                        <img
+                                            src="{% static 'img/testimonials/testimonials-4.jpg' %}assets/"
+                                            class="testimonial-img"
+                                            alt=""
+                                        />
+                                        <h3>Rahim</h3>
+                                        <h4>Businessman</h4>
+                                        <p>
+                                            <i
+                                                class="bx bxs-quote-alt-left quote-icon-left"
+                                            ></i>
+                                            May all mighty shower with his
+                                            blessings!
+                                            <i
+                                                class="bx bxs-quote-alt-right quote-icon-right"
+                                            ></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-wrap">
+                                    <div class="testimonial-item">
+                                        <img
+                                            src="{% static 'img/testimonials/testimonials-5.jpg' %}"
+                                            class="testimonial-img"
+                                            alt=""
+                                        />
+                                        <h3>Aakash Bhardwaj</h3>
+                                        <h4>Medical Professional</h4>
+                                        <p>
+                                            <i
+                                                class="bx bxs-quote-alt-left quote-icon-left"
+                                            ></i>
+                                            Good! Keep it up
+                                            <i
+                                                class="bx bxs-quote-alt-right quote-icon-right"
+                                            ></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End testimonial item -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-wrap">
+                                    <div class="testimonial-item">
+                                        <img
+                                            src="{% static 'img/testimonials/testimonials-5.jpg' %}"
+                                            class="testimonial-img"
+                                            alt=""
+                                        />
+                                        <h3>Pradeep Biduri</h3>
+                                        <h4>Businessman</h4>
+                                        <p>
+                                            <i
+                                                class="bx bxs-quote-alt-left quote-icon-left"
+                                            ></i>
+                                            I am happy for your startup. Call me
+                                            anytime I am always there with you
+                                            <i
+                                                class="bx bxs-quote-alt-right quote-icon-right"
+                                            ></i>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End testimonial item -->
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Testimonials Section -->
+
+            <!-- ======= Contact Section ======= -->
+            <section id="contact" class="contact">
+                <div class="container">
+                    <div class="section-title">
+                        <h2>Contact Us</h2>
+                        <p style="text-transform: lower !important">
+                            Retailers, hostpitals and medical representative
+                            kindly connect with us for better connevtivity and
+                            communication so that consumers of medicines and
+                            surgicals products are benefitted <br /><br />
+                            <b>GSTIN</b>:07AZTPB9934A1Z9<br />
+                            <br />
+                            <b>DL Number</b>: 1)07AZTPB9934A1Z9
+                            <br />2)WLF20B2022DL000347
+                        </p>
+                    </div>
+                </div>
+                {% comment %}
+                <div style="width: 100%">
+                    <iframe
+                        width="100%"
+                        height="600"
+                        frameborder="0"
+                        scrolling="no"
+                        marginheight="0"
+                        marginwidth="0"
+                        src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Vardhman%20Plaza,%20Nehru%20Vihar,Mukherjee%20Nagar,%20Delhi%205+(Your%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                        ><a href="https://www.gps.ie/sport-gps/"
+                            >fitness tracker</a
+                        ></iframe
+                    >
+                </div>
+                {% endcomment %}
+                <div>
+                    <iframe
+                        style="border: 0; width: 100%; height: 350px"
+                        src="https://maps.google.com/maps?width=100%25https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Vardhman%20Plaza,%20Nehru%20Vihar,Mukherjee%20Nagar,%20Delhi%205+(Your%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                        frameborder="0"
+                        allowfullscreen
+                    ></iframe>
+                </div>
+
+                <div class="container">
+                    <div class="row mt-5">
+                        <div class="col-lg-4">
+                            <div class="info">
+                                <div class="address">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <h4>Location:</h4>
+                                    <p>
+                                        Vardhman Plaza, Nehru Vihar,Mukherjee
+                                        Nagar, Delhi 54
+                                    </p>
+                                </div>
+
+                                <div class="email">
+                                    <i class="bi bi-envelope"></i>
+                                    <h4>Email:</h4>
+                                    <p>vivasurgicals@gmail.com</p>
+                                </div>
+
+                                <div class="phone">
+                                    <i class="bi bi-phone"></i>
+                                    <h4>Call:</h4>
+                                    <p>
+                                        +91 9899642481, +91 7827363628, +91
+                                        8750589184
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-8 mt-5 mt-lg-0">
+                            <form
+                                action="{% static 'forms/contact.php' %}"
+                                method="post"
+                                role="form"
+                                class="php-email-form"
+                            >
+                                <div class="row">
+                                    <div class="col-md-6 form-group">
+                                        <input
+                                            type="text"
+                                            name="name"
+                                            class="form-control"
+                                            id="name"
+                                            placeholder="Your Name"
+                                            required
+                                        />Form is undercontruction plz mail us
+                                    </div>
+                                    <div
+                                        class="col-md-6 form-group mt-3 mt-md-0"
+                                    >
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            name="email"
+                                            id="email"
+                                            placeholder="Your Email"
+                                            required
+                                        />
+                                    </div>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        name="subject"
+                                        id="subject"
+                                        placeholder="Subject"
+                                        required
+                                    />
+                                </div>
+                                <div class="form-group mt-3">
+                                    <textarea
+                                        class="form-control"
+                                        name="message"
+                                        rows="5"
+                                        placeholder="Message"
+                                        required
+                                    ></textarea>
+                                </div>
+                                <div class="my-3">
+                                    <div class="loading">Loading</div>
+                                    <div class="error-message"></div>
+                                    <div class="sent-message">
+                                        Your message has been sent. Thank you!
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Contact Section -->
+        </main>
+        <!-- End #main -->
+
+        <!-- ======= Footer ======= -->
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 footer-contact">
+                            <h3>VIVA</h3>
+                            <p>
+                                Vardhman Plaza, Nehru Vihar,Mukherjee Nagar,
+                                Delhi 54 <br />
+                                <strong>Phone:</strong> +1 5589 55488 55<br />
+                                <strong>Email:</strong> info@example.com<br />
+                            </p>
+                        </div>
+
+                        <div class="col-lg-2 col-md-6 footer-links">
+                            <h4>Follow us</h4>
+                            <ul>
+                                <li>
+                                    <i class="bx bx-chevron-left"></i>
+                                    <a href="#">Twitter</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-left"></i>
+                                    <a href="#">FaceBook</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-left"></i>
+                                    <a href="#">Quara</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-left"></i>
+                                    <a href="#">linkedin</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-left"></i>
+                                    <a href="#">Instagram</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>Short Links</h4>
+                            <ul>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#home">Home</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#about">About</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#doctors">Who We Are</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="{% url 'products' %}">Products</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 footer-newsletter">
+                            <h2>Thank You</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container d-md-flex py-4">
+                <div class="me-md-auto text-center text-md-start">
+                    <div class="copyright">
+                        &copy; Copyright <strong><span>VIVA</span></strong
+                        >. All Rights Reserved
+                    </div>
+                    <div class="credits">
+                        Designed by <a href="#">Akshat Srivastava</a>
+                    </div>
+                </div>
+                <div
+                    class="social-links text-center text-md-right pt-3 pt-md-0"
+                >
+                    <a href="#" class="twitter"
+                        ><i class="bx bxl-twitter"></i
+                    ></a>
+                    <a href="#" class="facebook"
+                        ><i class="bx bxl-facebook"></i
+                    ></a>
+                    <a href="#" class="instagram"
+                        ><i class="bx bxl-instagram"></i
+                    ></a>
+                    <a href="#" class="google-plus"
+                        ><i class="bx bxl-skype"></i
+                    ></a>
+                    <a href="#" class="linkedin"
+                        ><i class="bx bxl-linkedin"></i
+                    ></a>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+        <div id="preloader"></div>
+        <a
+            href="#"
+            class="back-to-top d-flex align-items-center justify-content-center"
+            ><i class="bi bi-arrow-up-short"></i
+        ></a>
+
+        <!-- Vendor JS Files -->
+        <script src="{% static 'vendor/purecounter/purecounter.js' %}"></script>
+        <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+        <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+        <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+        <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+        <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+
+        <!-- Template Main JS File -->
+        <script src="{% static 'js/main.js' %}"></script>
+    </body>
+</html>
